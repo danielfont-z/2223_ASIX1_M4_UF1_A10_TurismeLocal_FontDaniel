@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300&display=swap');
+
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+.row:after{
+    content:"" ;
+    display: flex;
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#iframe{
+    align-items: center;
+}
+
+.title{
+    height: 15%;
+    width: 64%;
+    background-image: url("../img/title.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+section{
+    text-align: left;
+    align-items: center;
+}
+
+p{
+    font-size: 1rem;
+}
+
+h1{
+    font-size: 5rem;
+    color: white;
+}
+
+h5{
+    font-size: 1.75rem;
+    background-color: red;
+    color: white;
+    text-decoration: solid;
+    margin: 3%;
+}
+
+h6{
+    font-size: 1rem;
+    color: red;
+}
+
+body{
+    font-family: 'Sofia Sans', sans-serif;
+    margin: 0px;
+}
+
+#menu{
+    padding-left: 2%;
+    text-decoration: solid;
+    font-size: 1.5rems;
+}
+
+#galeria{
+    padding-top: 20%;
+}
+
+.art1{
+    background-color: rgb(189, 189, 189);
+}
+
+#first{
+    width: 15%;
+    height: 100%;
+    float: left;
+    position: fixed;
+    color: white;
+    background-color: red;
+    text-decoration: solid;
+    font-size: 1.5rem;
+}
+
+#second{
+    width: 70%;
+    margin-left: 15%;
+}
+
+#third{
+    width: 15%;
+    height: 100%;
+    float: right;
+    position: fixed;
+    color: white;
+    background-color: red;
+}
+
+.column-2{
+    width: 40%;
+    float: left;
+}
+
+.column-3{
+    width: 25%;
+    float: left;
+}
+
+.padding-s{
+    padding: 3%;
+}
+
+.padding-m{
+    padding: 6%;
+}
+
+#img-1{
+    background-image: url(../img/img1.webp);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+}
+
+#img-2{
+    background-image: url(../img/img2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+}
+
+#img-3{
+    background-image: url(../img/img3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+}
+
+#img-4{
+    background-image: url(../img/img4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+}
+
+#img-5{
+    background-image: url(../img/img5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+}
+
+#img-6{
+    background-image: url(../img/img6.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+}
+
+#cm{
+    background-size: cover;
+    background-position: center;
+    height: 20vh; 
+    width: 100%;
+}
+
+#sf{
+    height: 17vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#pg{
+    height: 17vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#cb{
+    height: 20vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#lugares{
+    padding-top: 5%; 
+}
+
+#iframe{
+    width: 100%;
+}
+
+.sf{
+    height: 15%;
+    width: 100%;
+    background-image: url("../img/sf.jpeg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pg{
+    height: 15%;
+    width: 100%;
+    background-image: url("../img/pg.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cm{
+    height: 15%;
+    width: 100%;
+    background-image: url("../img/cm.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cb{
+    height: 15%;
+    width: 100%;
+    background-image: url("../img/cb.jfif");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    color: white;
+}
