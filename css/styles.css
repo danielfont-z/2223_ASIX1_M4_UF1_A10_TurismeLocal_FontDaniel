@@ -65,9 +65,9 @@ body{
 }
 
 #menu{
-    padding-left: 2%;
     text-decoration: solid;
     font-size: 1.5rems;
+    text-align: center;
 }
 
 #galeria{
@@ -92,12 +92,13 @@ body{
 #second{
     width: 70%;
     margin-left: 15%;
+    float: left;
 }
 
 #third{
     width: 15%;
-    height: 100%;
-    float: right;
+    margin-left: 85%;
+    height: 100vh;
     position: fixed;
     color: white;
     background-color: red;
@@ -245,4 +246,22 @@ body{
 
 li{
     color: white;
+}
+
+#noticias{
+    text-align: center;
+}
+
+.news{
+    padding-left: 5%;
+    color: white;
+}
+
+#new1{
+    background-image: url(/img/noticia1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 15%;
+    width: 100%;
 }
